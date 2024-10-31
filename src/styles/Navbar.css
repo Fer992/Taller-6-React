@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #102944; /* Fondo oscuro para la barra de navegación */
+  }
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navbar-links li {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.navbar-links a {
+  color: #dfa4bb; /* Color rosa neón */
+  text-decoration: none;
+ }
+
+.navbar-links a:hover {
+  color: #00ffff; /* Cambia a azul neón al pasar el ratón */
+}
